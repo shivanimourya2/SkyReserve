@@ -20,6 +20,7 @@
 .nav-links ul {
   display: flex;
   gap: 35px;
+  
 }
 
 .nav-links li {
