@@ -1,6 +1,5 @@
 import "../styles/home.css";
 
-
 const Hero =()=> {
     return (
         <section className="hero">
