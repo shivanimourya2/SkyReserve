@@ -52,7 +52,12 @@ const destinations = [
 const PopularDestinations = () => {
   return (
     <section className="destinations">
-      <h2>Popular Destinations</h2>
+      <div className="section-title">
+        <h2>Popular Destinations</h2>
+        <p>
+          Explore our most loved destinations around the world.
+        </p>
+      </div>
 
       <div className="destination-grid">
         {destinations.map((destination) => (
@@ -65,6 +70,7 @@ const PopularDestinations = () => {
             <div className="destination-info">
               <h3>{destination.city}</h3>
               <p>{destination.country}</p>
+
               <h4>From {destination.price}</h4>
 
               <button>Explore</button>
