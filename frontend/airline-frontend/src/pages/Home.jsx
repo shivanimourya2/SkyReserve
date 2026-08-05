@@ -6,6 +6,7 @@ import SearchBox from "../components/SearchBox";
 import PopularDestinations from "../components/PopularDestinations";
 import Features from "../components/Features";
 import Offers from "../components/Offer";
+import Stats from "../Stats/Stats";
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <PopularDestinations/>
       <Features />
       <offers/>
+      <Stats/>
     </>
   );
 };
