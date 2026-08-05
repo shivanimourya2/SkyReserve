@@ -7,6 +7,8 @@ import PopularDestinations from "../components/PopularDestinations";
 import Features from "../components/Features";
 import Offers from "../components/Offer";
 import Stats from "../Stats/Stats";
+import Testimonials from "../components/testimonials"
+import Footer from "../components/Footer"
 const Home = () => {
   return (
     <>
@@ -14,9 +16,11 @@ const Home = () => {
       <Hero/>
       <SearchBox/>
       <PopularDestinations/>
-      <Features />
+      <Features/>
       <offers/>
       <Stats/>
+      <Testimonials/>
+      <Footer/>
     </>
   );
 };
