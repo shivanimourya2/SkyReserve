@@ -1,0 +1,80 @@
+export const MOCK_FLIGHTS = [
+  {
+    id: "6e-234",
+    airline: "IndiGo",
+    flightNumber: "6E-234",
+    from: "Mumbai",
+    to: "Delhi",
+    departure: "08:30 AM",
+    arrival: "10:40 AM",
+    duration: "2h 10m",
+    price: "₹4,999",
+    priceNumeric: 4999,
+    departureCategory: "Morning"
+  },
+  {
+    id: "ai-505",
+    airline: "Air India",
+    flightNumber: "AI-505",
+    from: "Mumbai",
+    to: "Delhi",
+    departure: "02:15 PM",
+    arrival: "04:30 PM",
+    duration: "2h 15m",
+    price: "₹5,499",
+    priceNumeric: 5499,
+    departureCategory: "Afternoon"
+  },
+  {
+    id: "uk-981",
+    airline: "Vistara",
+    flightNumber: "UK-981",
+    from: "Delhi",
+    to: "Bangalore",
+    departure: "06:00 PM",
+    arrival: "08:45 PM",
+    duration: "2h 45m",
+    price: "₹6,200",
+    priceNumeric: 6200,
+    departureCategory: "Evening"
+  },
+  {
+    id: "sg-124",
+    airline: "SpiceJet",
+    flightNumber: "SG-124",
+    from: "Mumbai",
+    to: "Goa",
+    departure: "10:10 AM",
+    arrival: "11:30 AM",
+    duration: "1h 20m",
+    price: "₹3,499",
+    priceNumeric: 3499,
+    departureCategory: "Morning"
+  },
+  {
+    id: "qp-1102",
+    airline: "Akasa Air",
+    flightNumber: "QP-1102",
+    from: "Bangalore",
+    to: "Mumbai",
+    departure: "09:40 PM",
+    arrival: "11:35 PM",
+    duration: "1h 55m",
+    price: "₹4,199",
+    priceNumeric: 4199,
+    departureCategory: "Night"
+  },
+  {
+    id: "6e-789",
+    airline: "IndiGo",
+    flightNumber: "6E-789",
+    from: "Delhi",
+    to: "Mumbai",
+    departure: "07:00 AM",
+    arrival: "09:15 AM",
+    duration: "2h 15m",
+    price: "₹4,799",
+    priceNumeric: 4799,
+    departureCategory: "Morning"
+  }
+];

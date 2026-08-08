@@ -20,17 +20,22 @@
 .nav-links ul {
   display: flex;
   gap: 35px;
-  
 }
 
 .nav-links li {
   list-style: none;
   cursor: pointer;
   font-weight: 500;
+}
+
+.nav-links a,
+.logo a {
+  text-decoration: none;
+  color: inherit;
   transition: color 0.3s;
 }
 
-.nav-links li:hover {
+.nav-links a:hover {
   color: #2563eb;
 }
 
